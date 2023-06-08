@@ -5,12 +5,12 @@ gettingDefaultZoom.then((storage) => {
   if (storage.defaultZoom) {
     const parsedZoom = parseFloat(storage.defaultZoom);
     if (parsedZoom >= 30 && parsedZoom <= 300) {
-      defaultZoom = parsedZoom / 100;
+      defaultZoom = parsedZoom / 125;
     } else {
       // If the setting is somehow outside the allowed range of
       // values, set it back to the default.
       browser.storage.local.set({
-        defaultZoom: "100",
+        defaultZoom: "125",
       });
     }
   }

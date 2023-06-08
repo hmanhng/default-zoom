@@ -1,7 +1,7 @@
 // Just some boilerplate to save/restore the default zoom preference for the
 // extension, which is 100% if unset.
 
-const defaultZoom = 100;
+const defaultZoom = 125;
 
 function saveOptions(e) {
   e.preventDefault();

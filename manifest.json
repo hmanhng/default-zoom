@@ -4,8 +4,8 @@
   "short_name": "Default Zoom",
   "version": "1.1.3",
   "description": "Set default zoom level for Firefox.",
-  "author": "Jamie Nguyen",
-  "homepage_url": "https://github.com/jamielinux/default-zoom",
+  "author": "Hmanhng",
+  "homepage_url": "https://github.com/hmanhng/default-zoom",
 
   "permissions": [
     "storage"
@@ -23,7 +23,7 @@
 
   "applications": {
     "gecko": {
-      "id": "default-zoom@jamielinux.com",
+      "id": "default-zoom@hmanhng",
       "strict_min_version": "52.0"
     }
   }
